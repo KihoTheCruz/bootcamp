@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Activity 4</title>
+</head>
+<body>
+    <form action="#" accept="#">
+        <table>
+            <tr>
+                <td><label for="full name">Full Name</label></td>
+                <input type="text" name="fullname" id="fullname" required>
+                <label for="middlename">MI</label>
+                <input type="text" name="middlename" id="middlename">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+                <br>
+                <label for="city">City</label>
+                <input type="text" name="city" id="city">
+                <label for="state">State</label>
+                <input type="text" name="state" id="state">
+                <label for="zipcode">Zip Code</label>
+                <input type="text" name="zipcode" id="zipcode" min="6" max="6">
+            </tr>
+        </table>
+        <br>
+        <label for="sport">Choose a Sport:</label>
+        <br>
+        <input type="checkbox" name="basketball" id="basketball">
+        <label for="basketball">Basketball</label>
+        <input type="checkbox" name="football" id="football">
+        <label for="football">Football</label>
+        <input type="checkbox" name="hockey" id="hockey">
+        <label for="hockey">Hockey</label>
+        <br>
+       
+        <label>Choose a Year:</label>
+        <input type="radio" name="freshman" id="freshman" value="freshman">
+        <label for="freshman">Freshman</label>
+
+        <input type="radio" name="sophemore" id="sophemore" value="sophemore">
+        <label for="sophemore">Sophemore</label>
+
+
+
+        <br>
+        <label for="food">Choose Your Favorite Food:</label>
+        <select name="food[]" id="food" multiple>
+            <option value="chips">Chips</option>
+            <option value="pizza">Pizza</option>
+            <option value="nachos">Nachos</option>
+        </select>
+        <br>
+        <label for="comment"></label>
+        <textarea name="comment" id="comment" cols="40" rows="20" 
+        placeholder="Please let us know your comments"></textarea>
+        <br>
+        <input type="submit" value="Send it">
+        <input type="reset" value="Clear Up">
+    </form>
+    
+</body>
+</html>
